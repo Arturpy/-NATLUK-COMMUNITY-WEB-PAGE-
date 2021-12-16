@@ -1,0 +1,16 @@
+
+body::before {
+  display: block;
+  content: '';
+  height: 40px;
+}
+
+@media (min-width: 768px) {
+  .news-input {
+    width: 50%;
+  }
+}
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: ../node_modules/bootstrap/scss/bootstrap.\A        Load path: C:/HTML\A         on line 4 of C:\HTML\style1.scss\A \A 1: $primary: black;\A 2: \A 3: \A 4: @import '../node_modules/bootstrap/scss/bootstrap';\A 5: \A 6: \A 7: body::before {\A 8:     display: block;\A 9:     content: '';"; }

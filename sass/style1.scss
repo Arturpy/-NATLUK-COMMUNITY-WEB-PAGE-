@@ -1,0 +1,27 @@
+/* change the colors */
+$primary: rebeccapurple;
+$danger: #dd0000;
+$success: lime;
+$warning: orange;
+$info: aqua;
+$dark: black;
+
+
+$body-bg: #f3f3f0;
+
+@import "bootstrap";
+
+
+$theme-colors:(
+    primary: #000000,
+    dark: #000000
+);
+
+*{
+    width: 100vh;
+    height: 100vh;
+    }
+    
+
+@import '../node_modules/bootstrap/scss/bootstrap';
+    
